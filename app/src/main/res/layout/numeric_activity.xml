@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/passwordField"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_alignBottom="@+id/firstButton"
+        android:layout_toEndOf="@+id/firstButton"
+        android:layout_toRightOf="@+id/firstButton"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/fifthButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_alignBottom="@+id/forthButton"
+        android:layout_toEndOf="@+id/firstButton"
+        android:layout_toRightOf="@+id/firstButton"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/forthButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/firstButton"
+        android:layout_toStartOf="@+id/fifthButton"
+        android:layout_toLeftOf="@+id/fifthButton"
+        android:layout_marginLeft="22dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/thirdButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_alignBottom="@+id/secondButton"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toEndOf="@+id/secondButton"
+        android:layout_toRightOf="@+id/secondButton"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/sixthButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/thirdButton"
+        android:layout_toEndOf="@+id/fifthButton"
+        android:layout_toRightOf="@+id/fifthButton"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/seventhButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/forthButton"
+        android:layout_alignStart="@+id/forthButton"
+        android:layout_alignLeft="@+id/forthButton"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/ninethButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_alignBottom="@+id/eighthButton"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_toEndOf="@+id/fifthButton"
+        android:layout_toRightOf="@+id/fifthButton"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/zeroButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_below="@+id/eighthButton"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/seventhButton"
+        android:layout_toRightOf="@+id/seventhButton"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/passwordField"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/firstButton"
+        android:layout_alignLeft="@+id/firstButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/eighthButton"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_alignBottom="@+id/seventhButton"
+        android:layout_toEndOf="@+id/forthButton"
+        android:layout_toRightOf="@+id/forthButton"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="120dp"
+        android:layout_height="87dp"
+        android:layout_alignBottom="@+id/ninethButton"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginBottom="-87dp"
+        android:layout_toEndOf="@+id/zeroButton"
+        android:text="OK" />
+
+</RelativeLayout>

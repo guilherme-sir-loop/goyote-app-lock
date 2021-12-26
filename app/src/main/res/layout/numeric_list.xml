@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none"
+    >
+
+
+    <br.com.guilhermeapc.goyote.gui.MenuListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/numeric_configuration_list"
+       />
+
+   <Switch
+        android:id="@+id/random_switch"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:layout_alignEnd="@id/numeric_configuration_list"
+        android:layout_marginEnd="13dp" />
+
+</RelativeLayout>
