@@ -75,7 +75,7 @@ public class ApplicationWatcher extends IntentService {
             //And the list of applications are parsed to a Array
             String[] spacedLineString = comaSeparatedString.split(",");
             //Those lines are use to get UID of application and compare with current apps and save the last app of the list on a variable
-            for (int i = 0; i <= spacedLineString.length; i++) {
+            for (int i = 0; (i <= spacedLineString.length-1); i++) {
 
                 try {
                     //Getting the app GID and UID  : PackageManager.GET_GIDS
